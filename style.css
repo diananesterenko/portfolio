@@ -122,3 +122,8 @@ p {
     font-size: 22px;
   }
 }
+@media (max-width: 433px) {
+  .h1_about {
+    font-size: 80px;
+  }
+}

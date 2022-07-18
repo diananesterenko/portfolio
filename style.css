@@ -108,3 +108,17 @@ p {
   color: #bd73e0;
   background-color: #d793f6ba;
 }
+@media (max-width: 768px) {
+  .media_button {
+    text-align: center;
+  }
+  .h2_app {
+    text-align: center;
+  }
+  .primary-link {
+    padding: 20px 40px;
+  }
+  .email-link {
+    font-size: 22px;
+  }
+}

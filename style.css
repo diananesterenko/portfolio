@@ -1,4 +1,10 @@
 :root {
+  --color2: #97d9d5;
+  --color3: #74ded2;
+  --color4: #d5f9ec;
+  --color5: #09525f;
+  --color6: #b2e1decb;
+  --color7: #dffcf1d5;
   --primary-color: #d793f6;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -28,7 +34,7 @@ body h3 {
   opacity: 0.7;
 }
 p {
-  background: var(--secondary-color);
+  background: var(--color7);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -51,21 +57,24 @@ p {
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--color5);
   box-shadow: var(--box-shadow);
   color: white;
 }
 .contact-link:hover {
-  color: #bd73e0;
-  background-color: #d793f6ba;
+  border: 1px solid #09525f;
+  color: var(--color5);
+  background-color: var(--color4);
 }
 .about-link:hover {
-  color: #bd73e0;
-  background-color: #d793f640;
+  /*color: #bd73e0;
+  background-color: #d793f640;*/
+  color: var(--color2);
+  background-color: var(--color4);
 }
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--color2);
+  border: 1px solid var(--color2);
 }
 
 .homepage-link {
@@ -100,7 +109,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--primary-color);
+  background: var(--color2);
   box-shadow: var(--box-shadow);
   color: white;
 }

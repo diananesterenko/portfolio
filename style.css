@@ -202,6 +202,9 @@ li {
 .me_photo {
   width: 70%;
 }
+.a-git {
+  color: #677988;
+}
 .about {
   background-color: var(--color6);
   margin: 20px;

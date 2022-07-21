@@ -199,6 +199,9 @@ li {
 .photo-text {
   text-align: left;
 }
+.me_photo {
+  width: 70%;
+}
 .about {
   background-color: var(--color6);
   margin: 20px;
